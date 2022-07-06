@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 /**
  *
- * @author Kauã Criar algoritmo que guarde informações de 15 alunos: nome,
+ * @author Kauã
+ * Criar algoritmo que guarde informações de 15 alunos: nome,
  * nota1, nota2, nota3, média.
  */
 public class AlgoritmoDoEx1 {
@@ -36,13 +37,13 @@ public class AlgoritmoDoEx1 {
         String[] alunos = new String[nAlunos];
 
         System.out.println("Notas de Alunos: ");
-        for (int i = 0; i < nAlunos; i++) {
+        for (int i = 0; i < nAlunos; i++) { // linha.
             System.out.println("Nome aluno " + (i + 1) + ":");
             alunos[i] = ler.next();
             System.out.println("Notas: ");
 
 // Este for serve para percorre as colunas da matriz de notas           
-            for (int j = 0; j < nNotas; j++) {
+            for (int j = 0; j < nNotas; j++) { // coluna.
                 System.out.println("Nota " + (j + 1) + " : ");
                 notas[i][j] = ler.nextFloat();
                 
